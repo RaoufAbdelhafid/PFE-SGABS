@@ -7,5 +7,6 @@ Feature: Testing API GET
     Then status 200
     And print response
     And print responseStatus
-    And print responseTime
+
+
 

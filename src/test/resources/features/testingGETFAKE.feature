@@ -4,7 +4,7 @@ Feature: Testing API GET
 
     Given url 'https://reqres.in/api/users?page=2'
     When method GET
-    Then status 20000
+    Then status 200
     And print response
     And print responseStatus
 

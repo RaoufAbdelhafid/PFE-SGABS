@@ -5,7 +5,7 @@ pipeline {
         stage('Cucumber Test') {
             steps {
                 sh 'chmod +x gradlew'
-                sh './gradlew test'
+                sh './gradlew test -i'
             }
             
         }
